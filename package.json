@@ -9,7 +9,8 @@
     "preview": "vite preview",
     "lint": "eslint . --ext .ts,.tsx --fix",
     "format": "prettier --write \"src/**/*.{ts,tsx,js,jsx,json,css,scss,md}\"",
-    "prepare": "husky"
+    "prepare": "husky",
+    "test": "jest --passWithNoTests"
   },
   "dependencies": {
     "@emotion/react": "^11.13.3",
@@ -57,7 +58,7 @@
   },
   "lint-staged": {
     "*.{ts,tsx,js,jsx}": [
-      "eslint --fix",
+      "eslint",
       "prettier --write"
     ],
     "*.{css,scss,md}": [
