@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.app.json",
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "vite.config.ts",
+    "eslint.config.js"
+  ],
+  "exclude": ["node_modules"]
+}
