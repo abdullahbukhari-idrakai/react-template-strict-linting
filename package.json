@@ -1,7 +1,12 @@
 {
   "name": "react-template-strict-linting",
   "private": false,
-  "version": "0.0.0",
+  "version": "0.1.0",
+  "author": {
+    "name": "Abdullah",
+    "email": "m.abdullahtbukhari@gmail.com",
+    "url": "https://www.linkedin.com/in/abdullahtbukhari/"
+  },
   "type": "module",
   "scripts": {
     "dev": "vite",
