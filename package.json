@@ -6,7 +6,7 @@
     "name": "Abdullah",
     "email": "m.abdullahtbukhari@gmail.com",
     "url": "https://www.linkedin.com/in/abdullahtbukhari/"
-  },
+  }, 
   "type": "module",
   "scripts": {
     "dev": "vite",
